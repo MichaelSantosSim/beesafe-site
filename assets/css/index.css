@@ -32,6 +32,29 @@
     background-size: cover;
 }
 
+.pure-white-bg{
+    height: 720px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-title{
+
+    width: 30%;
+    display: flex;
+    flex-wrap:wrap;
+    padding : 30px;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 80%;
+
+}
 
 .sample-image{
     height: 450px;
@@ -41,10 +64,10 @@
     width: 30%;
     display: flex;
     flex-wrap:wrap;
-    padding : 15px;
+    padding : 30px;
     text-align: justify;
     border-radius: 1em;
-    background-color: #33333311;
+    background-color: #ffffff55;
     font: normal normal normal 25px/1.875em avenir-lt-w01_35-light1475496,sans-serif;
     flex-grow: 0;
     flex-shrink: 0;
