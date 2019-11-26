@@ -1,0 +1,123 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+.parallax-dmitry {
+    /* The image used */
+    background-image: url("/assets/images/dmitry-grigoriev-yxXpjF-RrnA-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 1024px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax-filipi {
+    /* The image used */
+    background-image: url("/assets/images/filipe-resmini-cVU7NlJIOA4-unsplash.jpg");
+  
+    /* Set a specific height */
+    height: 1024px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.sample-image{
+    height: 450px;
+}
+
+.textbox{
+    width: 30%;
+    display: flex;
+    flex-wrap:wrap;
+    padding : 15px;
+    text-align: justify;
+    border-radius: 1em;
+    background-color: #33333311;
+    font: normal normal normal 25px/1.875em avenir-lt-w01_35-light1475496,sans-serif;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    
+}
+.header{
+    height: 100px;
+    font-size: 10px;
+    background-color: #1c4566;
+    color: white;
+    border-color: transparent;
+    padding : 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.header-button-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+}
+
+
+.header-item{
+    color: white;
+    padding: 10px;
+    align-self: center;
+    font-size: 30px;
+
+/*    border: solid 1px black; */
+}
+
+.header-item:hover{
+    background-color: #4a6e8b;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.logo-container{
+    background-color: #1c4566;
+    color: white;
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-size: 10px;
+    display: inline-block;
+    width: 70px;
+}
+
+.main-title{
+    color: white;
+    font-family: 'Bree Serif', serif;
+    font-size: 150px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.logo-container img{
+    width: 90%;
+    align-self: center;
+}
+
+  .content-row{
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+  }
